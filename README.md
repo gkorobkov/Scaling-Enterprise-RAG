@@ -1,1 +1,3 @@
-# Scaling-Enterprise-RAG-
+# Enterprise RAG Scaling Retrieval Augmented Generation
+
+# Evals
