@@ -1,0 +1,25 @@
+# Development dependencies for Enterprise RAG Evaluation Framework
+# Install with: pip install -r requirements-dev.txt
+
+# Include base requirements
+-r requirements.txt
+
+# Testing
+pytest>=7.4.3
+pytest-cov>=4.1.0
+pytest-xdist>=3.5.0      # Parallel test execution
+pytest-html>=4.1.1       # HTML test reports
+
+# Code Quality
+black>=23.12.1           # Code formatter
+flake8>=7.0.0            # Linter
+mypy>=1.8.0              # Type checker
+isort>=5.13.2            # Import sorter
+
+# Documentation
+sphinx>=7.2.6            # Documentation generator
+sphinx-rtd-theme>=2.0.0  # ReadTheDocs theme
+
+# Development tools
+ipython>=8.19.0          # Enhanced Python REPL
+ipdb>=0.13.13            # Debugger
